@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDB-datasource": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/loopback-getting-started",
+    "database": "loopback-getting-started",
+    "password": "root",
+    "name": "mongoDB-datasource",
+    "user": "root",
+    "connector": "mongodb"
   }
 }

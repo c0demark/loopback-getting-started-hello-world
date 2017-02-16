@@ -36,7 +36,7 @@
     "dataSource": null
   },
   "CoffeeShop": {
-    "dataSource": "db",
+    "dataSource": "mongoDB-datasource",
     "public": true
   }
 }
