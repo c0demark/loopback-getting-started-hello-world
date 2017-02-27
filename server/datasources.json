@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongoDB-datasource": {
+  "mongoDs": {
     "host": "localhost",
     "port": 27017,
-    "url": "mongodb://localhost:27017/loopback-getting-started",
-    "database": "loopback-getting-started",
+    "url": "mongodb://localhost:27017/loopback-getting-started-hello-world",
+    "database": "loopback-getting-started-hello-world",
     "password": "root",
-    "name": "mongoDB-datasource",
+    "name": "mongoDs",
     "user": "root",
     "connector": "mongodb"
   }

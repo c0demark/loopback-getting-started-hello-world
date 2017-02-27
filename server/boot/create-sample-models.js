@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = function(app) {
-  app.dataSources["mongoDB-datasource"].automigrate('CoffeeShop', function(err) {
+  app.dataSources["mongoDs"].automigrate('CoffeeShop', function(err) {
     if (err) throw err;
  
    app.models.CoffeeShop.create([{
